@@ -123,7 +123,15 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Abe1able/Blog-App/issues/).
+
+<p align="right"><a href="#readme-top">back to top</a></p>
+
+<!--Acknowledgements -->
+
+## 🙏 Acknowledgements
+
+I would like to thank all code reviewers for making this project better.
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -131,7 +139,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project...
+If you like this project, show your support by starring the repository.
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
