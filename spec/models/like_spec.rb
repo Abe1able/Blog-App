@@ -13,6 +13,6 @@ RSpec.describe Like, type: :model do
 
   it 'checks likes counter' do
     Like.create(user_id: @user, post_id: @post)
-    expect(@post.likes_counter_integer).to eq "1"
+    expect(@post.likes_counter_integer).to eq '1'
   end
 end
