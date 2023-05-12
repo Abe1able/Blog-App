@@ -30,18 +30,18 @@ comments_data = [
     "Great job! Your post is informative, engaging, and well-structured. Keep up the good work!"
 ]
 
-# users = []
-# posts = []
+users = []
+posts = []
 
-# users_data.each do |data|
-#     users << User.create(data)
-# end 
+users_data.each do |data|
+    users << User.create(data)
+end 
 
-# users.each do |user|
-#     posts_data.each do |post|
-#         posts << Post.create(user: user, title: post[:title], text: post[:text])
-#     end
-# end
+users.each do |user|
+    posts_data.each do |post|
+        posts << Post.create(user: user, title: post[:title], text: post[:text])
+    end
+end
 
 # posts.each do |post|
 #     comments_data.shuffle.each { |text| Comment.create(user: users.sample, post: post, text: text) }
