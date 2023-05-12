@@ -15,6 +15,9 @@
 				<h2><%= link_to "Post title: #{post.title}", user_post_path(@user.id, post.id), class: "link-button" %></h2>
 				<p><%= post.text %></p>
 				<h4>Comments: <%=post.comments_counter %>, Likes: <%= post.likes_counter %></h4>
+				<%= form_with url: "/users/#{@user.id}/posts/#{post.id}/likes" do |form| %>
+    		    <%= form.submit "Like Post" %>
+	       		<% end %>
 			</div>
 			<div class="comments-cont">
 				<% if post.five_recent_comments.count.zero? %>
